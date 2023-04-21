@@ -50,6 +50,10 @@ const routes: Routes = [
   {
     path: 'content',
     loadChildren: () => import('./pages/content/content.module').then( m => m.ContentPageModule)
+  },
+  {
+    path: 'date-time',
+    loadChildren: () => import('./pages/date-time/date-time.module').then( m => m.DateTimePageModule)
   }
 ];
 

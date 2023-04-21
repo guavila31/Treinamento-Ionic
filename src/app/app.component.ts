@@ -9,12 +9,13 @@ export class AppComponent {
     { title: 'Navegação', url: 'navegacao', icon: 'paper-plane' },
     { title: 'Botões', url: 'botoes', icon: 'construct' },
     { title: 'Alert', url: 'alert', icon: 'alert' },
-    { title: 'Action-Sheet', url: 'actionsheet', icon: 'actionsheet' },
-    { title: 'Badge', url: 'badge', icon: 'badge' },
+    { title: 'Action-Sheet', url: 'actionsheet', icon: 'construct' },
+    { title: 'Badge', url: 'badge', icon: 'construct' },
     { title: 'Card', url: 'card', icon: 'card' },
-    { title: 'Checkbox', url: 'checkbox', icon: 'box' },
-    { title: 'Chip', url: 'chip', icon: 'chip' },
-    { title: 'Content', url: 'content', icon: 'chip' },
+    { title: 'Checkbox', url: 'checkbox', icon: 'construct' },
+    { title: 'Chip', url: 'chip', icon: 'construct' },
+    { title: 'Content', url: 'content', icon: 'construct' },
+    { title: 'Date Time', url: 'date-time', icon: 'construct' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}

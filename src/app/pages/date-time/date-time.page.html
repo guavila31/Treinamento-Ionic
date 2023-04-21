@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="black">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Date Time</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-label>Data Default</ion-label>
+    <ion-datetime></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Data</ion-label>
+    <ion-datetime display-format="DD.MM.YYYY HH:mm"></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Data</ion-label>
+    <ion-datetime display-format="DD.MM.YYYY HH:mm" picker-format="MMMM YYYY"></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Data</ion-label>
+    <ion-datetime display-format="DD.MM.YYYY HH:mm" min="2020" max="2025"></ion-datetime>
+  </ion-item>
+
+
+</ion-content>
