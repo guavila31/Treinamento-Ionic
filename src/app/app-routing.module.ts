@@ -62,6 +62,10 @@ const routes: Routes = [
   {
     path: 'grid',
     loadChildren: () => import('./pages/grid/grid.module').then( m => m.GridPageModule)
+  },
+  {
+    path: 'infine-scroll',
+    loadChildren: () => import('./pages/infine-scroll/infine-scroll.module').then( m => m.InfineScrollPageModule)
   }
 ];
 

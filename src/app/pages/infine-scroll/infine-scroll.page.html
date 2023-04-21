@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="black">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Infinete Scroll</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item  *ngFor="let n of numeros | slice: 0:limite">
+      <ion-label>
+        <ion-label>{{n}}</ion-label>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-infinite-scroll threshold="25%" position="bottom" (ionInfinite)="popularInifnite($event)">
+    <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Loading more data...">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+</ion-content>

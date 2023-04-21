@@ -18,6 +18,7 @@ export class AppComponent {
     { title: 'Date Time', url: 'date-time', icon: 'construct' },
     { title: 'Fab', url: 'fab', icon: 'construct' },
     { title: 'Grid', url: 'grid', icon: 'construct' },
+    { title: 'Infinite Scroll', url: 'infine-scroll', icon: 'construct' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
