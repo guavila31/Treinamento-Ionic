@@ -12,6 +12,7 @@ export class AppComponent {
     { title: 'Action-Sheet', url: 'actionsheet', icon: 'actionsheet' },
     { title: 'Badge', url: 'badge', icon: 'badge' },
     { title: 'Card', url: 'card', icon: 'card' },
+    { title: 'Checkbox', url: 'checkbox', icon: 'box' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
