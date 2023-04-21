@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="warning">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Alerta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-button expand="block" color="warning" (click)="abriAlert()">Alert</ion-button>
+  <ion-button expand="block" color="danger" (click)="abriAlertMultiploBotoes()">Alert Multiplo</ion-button>
+  <ion-button expand="block" color="success" (click)="abriAlertConfirm()">Alert Confirm</ion-button>
+  <ion-button expand="block" color="primary" (click)="abriAlertPrompt()">Prompt</ion-button>
+</ion-content>
