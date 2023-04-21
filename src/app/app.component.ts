@@ -13,6 +13,7 @@ export class AppComponent {
     { title: 'Badge', url: 'badge', icon: 'badge' },
     { title: 'Card', url: 'card', icon: 'card' },
     { title: 'Checkbox', url: 'checkbox', icon: 'box' },
+    { title: 'Chip', url: 'chip', icon: 'chip' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
