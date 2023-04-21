@@ -16,6 +16,7 @@ export class AppComponent {
     { title: 'Chip', url: 'chip', icon: 'construct' },
     { title: 'Content', url: 'content', icon: 'construct' },
     { title: 'Date Time', url: 'date-time', icon: 'construct' },
+    { title: 'Fab', url: 'fab', icon: 'construct' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
