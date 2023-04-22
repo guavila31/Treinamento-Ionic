@@ -22,6 +22,7 @@ export class AppComponent {
     { title: 'Input', url: 'input', icon: 'construct' },
     { title: 'List', url: 'list', icon: 'construct' },
     { title: 'Progress Bar', url: 'progress-bar', icon: 'construct' },
+    { title: 'Refresher', url: 'refresher', icon: 'construct' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
