@@ -66,7 +66,8 @@ const routes: Routes = [
   {
     path: 'infine-scroll',
     loadChildren: () => import('./pages/infine-scroll/infine-scroll.module').then( m => m.InfineScrollPageModule)
-  },  {
+  },
+  {
     path: 'input',
     loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
   },
@@ -101,7 +102,11 @@ const routes: Routes = [
   {
     path: 'segment',
     loadChildren: () => import('./pages/segment/segment.module').then( m => m.SegmentPageModule)
-  }
+  },
+  {
+    path: 'slides',
+    loadChildren: () => import('./pages/slides/slides.module').then( m => m.SlidesPageModule)
+  },
 
 ];
 
