@@ -1,0 +1,77 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="black">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Select</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list-header>
+    <ion-label>Select Simples</ion-label>
+    <ion-button>See All</ion-button>
+  </ion-list-header>
+  <ion-item>
+    <ion-label>Sexo</ion-label>
+    <ion-select placeholder="Seleceione">
+      <ion-select-option value="m">Masculino</ion-select-option>
+      <ion-select-option value="f">Feminino</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Cor</ion-label>
+    <ion-select placeholder="Selecione" value="Azul" okText="Selecionar" cancelText="Cancelar">
+      <ion-select-option value="Azul">Azul</ion-select-option>
+      <ion-select-option value="Verde">Verde</ion-select-option>
+      <ion-select-option value="Vermelho">Vermelho</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-list-header>
+    <ion-label>Select Multiplo</ion-label>
+  </ion-list-header>
+  <ion-item>
+    <ion-label>Fruta</ion-label>
+    <ion-select value="Pera" multiple="true" placeholder="Selecione">
+      <ion-select-option value="Pera">Pera</ion-select-option>
+      <ion-select-option value="Maca">Maca</ion-select-option>
+      <ion-select-option value="Banana">Banana</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-list-header>
+    <ion-label>Select Customizado</ion-label>
+  </ion-list-header>
+  <ion-item>
+    <ion-label>Alert</ion-label>
+    <ion-select interface="alert" placeholder="Selecione">
+      <ion-select-option value="Abacaxi">Abacaxi</ion-select-option>
+      <ion-select-option value="Pera">Pera</ion-select-option>
+      <ion-select-option value="Maca">Maca</ion-select-option>
+      <ion-select-option value="Banana">Banana</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label>PopOver</ion-label>
+    <ion-select interface="popover" placeholder="Selecione">
+      <ion-select-option value="Abacaxi">Abacaxi</ion-select-option>
+      <ion-select-option value="Pera">Pera</ion-select-option>
+      <ion-select-option value="Maca">Maca</ion-select-option>
+      <ion-select-option value="Banana">Banana</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label>Action Sheet</ion-label>
+    <ion-select interface="action-sheet" placeholder="Selecione">
+      <ion-select-option value="Abacaxi">Abacaxi</ion-select-option>
+      <ion-select-option value="Pera">Pera</ion-select-option>
+      <ion-select-option value="Maca">Maca</ion-select-option>
+      <ion-select-option value="Banana">Banana</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+
+</ion-content>
