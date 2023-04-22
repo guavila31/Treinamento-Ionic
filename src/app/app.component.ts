@@ -21,6 +21,7 @@ export class AppComponent {
     { title: 'Infinite Scroll', url: 'infine-scroll', icon: 'construct' },
     { title: 'Input', url: 'input', icon: 'construct' },
     { title: 'List', url: 'list', icon: 'construct' },
+    { title: 'Progress Bar', url: 'progress-bar', icon: 'construct' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}

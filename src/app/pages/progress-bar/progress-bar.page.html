@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="black">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Progress Bar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <br>
+  <h4>Processando 42%</h4>
+  <ion-progress-bar type="determinate" value="0.42" buffer="0.5" reversed="true" color="primary"></ion-progress-bar>
+  <br>
+  <h4>Processando 80%</h4>
+  <ion-progress-bar value="0.8" color="warning"></ion-progress-bar>
+  <br>
+  <h4>Processando Indenterminado</h4>
+  <ion-progress-bar color="success" type="indeterminate"></ion-progress-bar>
+  <br>
+  <h4>Processando Indeterminado reverso</h4>
+  <ion-progress-bar color="danger" type="indeterminate" reversed="true"></ion-progress-bar>
+</ion-content>
