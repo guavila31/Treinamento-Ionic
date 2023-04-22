@@ -29,6 +29,7 @@ export class AppComponent {
     { title: 'Search Bar', url: 'search-bar', icon: 'search' },
     { title: 'Segment', url: 'segment', icon: 'search' },
     { title: 'Slides', url: 'slides', icon: 'search' },
+    { title: 'Toast', url: 'toast', icon: 'toast' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
