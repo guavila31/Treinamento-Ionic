@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Radio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-radio-group name="auto" value="tesla">
+      <ion-list-header>
+        <ion-label>Auto Manufacturers</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-label>Tesla</ion-label>
+        <ion-radio color="success" value="tesla"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Ford</ion-label>
+        <ion-radio color="danger" value="ford"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Fiat</ion-label>
+        <ion-radio value="gol" disabled="true"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Chevrolet</ion-label>
+        <ion-radio color="warning" value="ford" mode="md"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+</ion-content>
