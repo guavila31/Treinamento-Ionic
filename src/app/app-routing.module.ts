@@ -66,7 +66,11 @@ const routes: Routes = [
   {
     path: 'infine-scroll',
     loadChildren: () => import('./pages/infine-scroll/infine-scroll.module').then( m => m.InfineScrollPageModule)
+  },  {
+    path: 'input',
+    loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
   }
+
 ];
 
 @NgModule({
