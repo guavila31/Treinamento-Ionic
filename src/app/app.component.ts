@@ -33,6 +33,7 @@ export class AppComponent {
     { title: 'Modal', url: 'modal', icon: 'search' },
     { title: 'Pop Over', url: 'popover', icon: 'search' },
     { title: 'Radio', url: 'radio', icon: 'search' },
+    { title: 'Animação', url: 'animacao', icon: 'search' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
